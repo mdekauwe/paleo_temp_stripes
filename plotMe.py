@@ -90,7 +90,7 @@ col.set_clim(-rect_height/2, rect_height/2) # set the limits of our colormap
 
 
 ax.add_collection(col)
-ax.set_xlim(540, 0)
+ax.set_xlim(500, 0)
 
 ax.plot(df['anomaly'], linestyle='-', lw=0.5, color='k')
 ax.axhline(0, linestyle='--', color='k', lw=0.5)
